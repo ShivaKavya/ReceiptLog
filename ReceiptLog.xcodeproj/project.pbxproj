@@ -3,19 +3,36 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B542AC70406EEEB95532ABA1 /* Pods_ReceiptLog.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FDB3FEB53DEDDF0BAB4E5AAC /* Pods_ReceiptLog.framework */; };
+		FC571DCE22FA1A65001BD5A6 /* SwipeTableTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC571DCD22FA1A65001BD5A6 /* SwipeTableTableViewController.swift */; };
 		FCC45E9B22F3889800796669 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCC45E9A22F3889800796669 /* AppDelegate.swift */; };
 		FCC45E9D22F3889800796669 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCC45E9C22F3889800796669 /* ViewController.swift */; };
 		FCC45EA022F3889800796669 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FCC45E9E22F3889800796669 /* Main.storyboard */; };
 		FCC45EA322F3889800796669 /* ReceiptLog.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = FCC45EA122F3889800796669 /* ReceiptLog.xcdatamodeld */; };
 		FCC45EA522F3889900796669 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FCC45EA422F3889900796669 /* Assets.xcassets */; };
 		FCC45EA822F3889900796669 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FCC45EA622F3889900796669 /* LaunchScreen.storyboard */; };
+		FCC45EB322F3895B00796669 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCC45EB222F3895B00796669 /* LoginViewController.swift */; };
+		FCC45EB522F3897700796669 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCC45EB422F3897700796669 /* ProfileViewController.swift */; };
+		FCC45EB722F389E500796669 /* ListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCC45EB622F389E500796669 /* ListViewController.swift */; };
+		FCC45EB922F389FA00796669 /* DetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCC45EB822F389FA00796669 /* DetailsViewController.swift */; };
+		FCC45EBB22F391E700796669 /* GroupViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCC45EBA22F391E700796669 /* GroupViewController.swift */; };
+		FCC45EBD22F3997000796669 /* MaxLength.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCC45EBC22F3997000796669 /* MaxLength.swift */; };
+		FCC45EBF22F3998C00796669 /* CircularButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCC45EBE22F3998C00796669 /* CircularButton.swift */; };
+		FCC45EC122F399A800796669 /* AllowedChars.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCC45EC022F399A800796669 /* AllowedChars.swift */; };
+		FCC45EC322F399BC00796669 /* BannedChars.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCC45EC222F399BC00796669 /* BannedChars.swift */; };
+		FCC45EC522F399F700796669 /* UserData.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCC45EC422F399F700796669 /* UserData.swift */; };
+		FCC45EC722F39A3500796669 /* Groups.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCC45EC622F39A3500796669 /* Groups.swift */; };
+		FCC45EC922F39A4800796669 /* Receipts.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCC45EC822F39A4800796669 /* Receipts.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		04E21D3AC848DE5236DF1C12 /* Pods-ReceiptLog.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ReceiptLog.debug.xcconfig"; path = "Target Support Files/Pods-ReceiptLog/Pods-ReceiptLog.debug.xcconfig"; sourceTree = "<group>"; };
+		D2AAFB662271A1BBBF29820F /* Pods-ReceiptLog.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ReceiptLog.release.xcconfig"; path = "Target Support Files/Pods-ReceiptLog/Pods-ReceiptLog.release.xcconfig"; sourceTree = "<group>"; };
+		FC571DCD22FA1A65001BD5A6 /* SwipeTableTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwipeTableTableViewController.swift; sourceTree = "<group>"; };
 		FCC45E9722F3889800796669 /* ReceiptLog.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ReceiptLog.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FCC45E9A22F3889800796669 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FCC45E9C22F3889800796669 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -24,6 +41,19 @@
 		FCC45EA422F3889900796669 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FCC45EA722F3889900796669 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FCC45EA922F3889900796669 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FCC45EB222F3895B00796669 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		FCC45EB422F3897700796669 /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		FCC45EB622F389E500796669 /* ListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListViewController.swift; sourceTree = "<group>"; };
+		FCC45EB822F389FA00796669 /* DetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsViewController.swift; sourceTree = "<group>"; };
+		FCC45EBA22F391E700796669 /* GroupViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroupViewController.swift; sourceTree = "<group>"; };
+		FCC45EBC22F3997000796669 /* MaxLength.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MaxLength.swift; sourceTree = "<group>"; };
+		FCC45EBE22F3998C00796669 /* CircularButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircularButton.swift; sourceTree = "<group>"; };
+		FCC45EC022F399A800796669 /* AllowedChars.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AllowedChars.swift; sourceTree = "<group>"; };
+		FCC45EC222F399BC00796669 /* BannedChars.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BannedChars.swift; sourceTree = "<group>"; };
+		FCC45EC422F399F700796669 /* UserData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserData.swift; sourceTree = "<group>"; };
+		FCC45EC622F39A3500796669 /* Groups.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Groups.swift; sourceTree = "<group>"; };
+		FCC45EC822F39A4800796669 /* Receipts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Receipts.swift; sourceTree = "<group>"; };
+		FDB3FEB53DEDDF0BAB4E5AAC /* Pods_ReceiptLog.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ReceiptLog.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +61,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B542AC70406EEEB95532ABA1 /* Pods_ReceiptLog.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		76E1493A7E1E2F5B9D0FE8FA /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				04E21D3AC848DE5236DF1C12 /* Pods-ReceiptLog.debug.xcconfig */,
+				D2AAFB662271A1BBBF29820F /* Pods-ReceiptLog.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		F2FF3C4C26F6F20CFEF53E87 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FDB3FEB53DEDDF0BAB4E5AAC /* Pods_ReceiptLog.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		FCC45E8E22F3889800796669 = {
 			isa = PBXGroup;
 			children = (
 				FCC45E9922F3889800796669 /* ReceiptLog */,
 				FCC45E9822F3889800796669 /* Products */,
+				76E1493A7E1E2F5B9D0FE8FA /* Pods */,
+				F2FF3C4C26F6F20CFEF53E87 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -57,14 +107,51 @@
 			isa = PBXGroup;
 			children = (
 				FCC45E9A22F3889800796669 /* AppDelegate.swift */,
-				FCC45E9C22F3889800796669 /* ViewController.swift */,
 				FCC45E9E22F3889800796669 /* Main.storyboard */,
+				FCC45EB022F388B200796669 /* Design */,
+				FCC45EAF22F388AE00796669 /* Data  */,
+				FCC45EB122F388B800796669 /* Controllers */,
 				FCC45EA422F3889900796669 /* Assets.xcassets */,
 				FCC45EA622F3889900796669 /* LaunchScreen.storyboard */,
 				FCC45EA922F3889900796669 /* Info.plist */,
 				FCC45EA122F3889800796669 /* ReceiptLog.xcdatamodeld */,
 			);
 			path = ReceiptLog;
+			sourceTree = "<group>";
+		};
+		FCC45EAF22F388AE00796669 /* Data  */ = {
+			isa = PBXGroup;
+			children = (
+				FCC45EC422F399F700796669 /* UserData.swift */,
+				FCC45EC622F39A3500796669 /* Groups.swift */,
+				FCC45EC822F39A4800796669 /* Receipts.swift */,
+			);
+			path = "Data ";
+			sourceTree = "<group>";
+		};
+		FCC45EB022F388B200796669 /* Design */ = {
+			isa = PBXGroup;
+			children = (
+				FCC45EBC22F3997000796669 /* MaxLength.swift */,
+				FCC45EBE22F3998C00796669 /* CircularButton.swift */,
+				FCC45EC022F399A800796669 /* AllowedChars.swift */,
+				FCC45EC222F399BC00796669 /* BannedChars.swift */,
+			);
+			path = Design;
+			sourceTree = "<group>";
+		};
+		FCC45EB122F388B800796669 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				FCC45E9C22F3889800796669 /* ViewController.swift */,
+				FCC45EB222F3895B00796669 /* LoginViewController.swift */,
+				FCC45EB422F3897700796669 /* ProfileViewController.swift */,
+				FCC45EBA22F391E700796669 /* GroupViewController.swift */,
+				FCC45EB622F389E500796669 /* ListViewController.swift */,
+				FCC45EB822F389FA00796669 /* DetailsViewController.swift */,
+				FC571DCD22FA1A65001BD5A6 /* SwipeTableTableViewController.swift */,
+			);
+			path = Controllers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +161,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = FCC45EAC22F3889900796669 /* Build configuration list for PBXNativeTarget "ReceiptLog" */;
 			buildPhases = (
+				A8CB22272C8FBD8610B2204E /* [CP] Check Pods Manifest.lock */,
 				FCC45E9322F3889800796669 /* Sources */,
 				FCC45E9422F3889800796669 /* Frameworks */,
 				FCC45E9522F3889800796669 /* Resources */,
+				513285845571858528C4A1F2 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -133,14 +222,69 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		513285845571858528C4A1F2 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ReceiptLog/Pods-ReceiptLog-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ReceiptLog/Pods-ReceiptLog-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ReceiptLog/Pods-ReceiptLog-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A8CB22272C8FBD8610B2204E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ReceiptLog-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		FCC45E9322F3889800796669 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FCC45EC522F399F700796669 /* UserData.swift in Sources */,
+				FCC45EBD22F3997000796669 /* MaxLength.swift in Sources */,
+				FCC45EC322F399BC00796669 /* BannedChars.swift in Sources */,
+				FCC45EBB22F391E700796669 /* GroupViewController.swift in Sources */,
+				FCC45EB322F3895B00796669 /* LoginViewController.swift in Sources */,
 				FCC45E9D22F3889800796669 /* ViewController.swift in Sources */,
+				FCC45EC922F39A4800796669 /* Receipts.swift in Sources */,
+				FCC45EBF22F3998C00796669 /* CircularButton.swift in Sources */,
+				FCC45EB722F389E500796669 /* ListViewController.swift in Sources */,
+				FCC45EC122F399A800796669 /* AllowedChars.swift in Sources */,
+				FCC45EB522F3897700796669 /* ProfileViewController.swift in Sources */,
+				FCC45EB922F389FA00796669 /* DetailsViewController.swift in Sources */,
 				FCC45E9B22F3889800796669 /* AppDelegate.swift in Sources */,
+				FC571DCE22FA1A65001BD5A6 /* SwipeTableTableViewController.swift in Sources */,
 				FCC45EA322F3889800796669 /* ReceiptLog.xcdatamodeld in Sources */,
+				FCC45EC722F39A3500796669 /* Groups.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -284,6 +428,7 @@
 		};
 		FCC45EAD22F3889900796669 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 04E21D3AC848DE5236DF1C12 /* Pods-ReceiptLog.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -302,6 +447,7 @@
 		};
 		FCC45EAE22F3889900796669 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D2AAFB662271A1BBBF29820F /* Pods-ReceiptLog.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
